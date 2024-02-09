@@ -2436,10 +2436,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lyriq/proprietary/vendor/usr/keylayout/goodix_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_ts.kl
 
 PRODUCT_PACKAGES += \
+    ImsService \
     EuiccPartnerApp \
     EuiccGoogle \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
